@@ -3,7 +3,7 @@ def jogar():
     print("Jogo da Forca")
     print("*************")
 
-    palavra_secreta = "maça".upper()
+    palavra_secreta = "casas".upper()
     letras_acertadas = ["_" for letra in palavra_secreta]
     numero_letras = (len(palavra_secreta))
     erros = 0
